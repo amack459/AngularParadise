@@ -1,2 +1,2 @@
 angular
-  .module('frontendTest', []);
+  .module('angularParadise', []);
