@@ -1,0 +1,84 @@
+html{
+  height: 100%;
+
+  overflow-y: scroll;
+} 
+
+body{
+  height: 100%;
+  background: url('public/pic.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+header{
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  height: 75px;
+  padding: .2px 0;
+  color: #bbc7db;
+}
+
+h3{
+  text-align: justify;
+  margin-top: -10px;
+  margin-left: 40px;
+}
+
+
+i.fa.fa-globe.fa-4x{
+  margin-right: -875px;
+  margin-top: -45px; 
+  vertical-align: top;
+}
+
+.buttons{
+  width: 40%;
+  height: 10%;
+  margin: 0 40%;
+  background-color: none;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+input.button{
+  border:2px solid white;
+  background: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 1px 0 #424a70;
+  color: white;
+  opacity: 0.6;
+  background-color: black;
+}
+
+.button:focus{
+  outline: none;
+  top: 0;
+  box-shadow: none;
+}
+
+table.table{
+  border-radius: 4px;
+  margin: 10px auto;
+  color: white;
+  width: 400px;
+  opacity: 0.6;
+  background-color: black;
+}
+
+td{
+  padding: 2px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  display: inline;
+}
+
+.mainContent{
+  margin: 100px auto;
+  overflow-y: scroll;
+}
+
